@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Roslyn"
+date:   2020-03-3 12:46:54 +0200
+categories: jekyll update
+---
+Roslyn
+-
+
+`Roslyn` is the compiler platform for .NET. It consists of the compiler itself and a powerful set of APIs to interact with the compiler. The Roslyn platform is hosted at github.com/dotnet/roslyn.
+
+Roslyn analyzers analyze your code for style, quality and maintainability, design and other issues. The documentation for Roslyn Analyzers can be found at docs.microsoft.com/visualstudio/code-quality/roslyn-analyzers-overview.
+
+Microsoft created a set of analyzers called Microsoft.CodeAnalysis.FxCopAnalyzers that contains the most important "FxCop" rules from static code analysis, converted to Roslyn analyzers. These analyzers check your code for security, performance, and design issues, among others. The documentation for FxCop analyzers in Visual Studio can be found at docs.microsoft.com/visualstudio/code-quality/install-fxcop-analyzers.
+
+Microsoft.CodeAnalysis.FxCopAnalyzers
+-
+
+This is the primary analyzer package for this repo that contains all the ported FxCop code analysis rules (CAxxxx). The documentation for FxCop Analyzers and FAQs about migrating from legacy post-build static analysis also known as "FxCop" to FxCop Analyzers can be found at docs.microsoft.com/visualstudio/code-quality/install-fxcop-analyzers.
+
+The documentation for all the ported and unported FxCop rules can be found at docs.microsoft.com/en-us/visualstudio/code-quality/fxcop-rule-port-status.
+
+This analyzer package contains all the ported FxCop rules that are applicable for both .NetCore/.NetStandard and Desktop .NetFramework projects. You do not need to install any separate analyzer package from this repo to get target-framework specific FxCop rules. More info about rules in this package
+
+
+
+More is here: [link][link]
+
+---
+
+
+
+
+[link]: https://github.com/dotnet/roslyn-analyzers
