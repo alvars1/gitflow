@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "First try!"
+date:   2020-02-26 15:53:54 +0200
+categories: jekyll update
+---
+Kestrel
+-
+
+`Kestrel`-  is a cross-platform web server for ASP.NET Core. Kestrel is the web server that's included by default in ASP.NET Core project templates.
+
+Kestrel supports the following scenarios:
+
+HTTPS
+Opaque upgrade used to enable WebSockets
+Unix sockets for high performance behind Nginx
+HTTP/2 (except on macOS†)
+†HTTP/2 will be supported on macOS in a future release.
+
+Kestrel is supported on all platforms and versions that .NET Core supports.
+
+---
+
+
+Check out the [link][link]
+
+[link]: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel?view=aspnetcore-3.1
