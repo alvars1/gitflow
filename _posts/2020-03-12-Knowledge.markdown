@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "Jenkins Pipeline, CORS, Polly, RabbitMQ, EasyNetQ, NoSQL, E2E Testing, Unit testing, Itegration tests, Trunk-Based Development, Git Flow vs Github Flow
-"
+title:  "Jenkins Pipeline, CORS, Polly, RabbitMQ, EasyNetQ, NoSQL, E2E Testing, Unit testing, Itegration tests, Trunk-Based Development, Git Flow vs Github Flow"
 date:   2020-03-12 12:46:54 +0200
 categories: jekyll update
 ---
