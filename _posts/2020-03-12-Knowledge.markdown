@@ -100,12 +100,12 @@ Messages should be represented by .NET types.
 Messages should be routed by their .NET type.
 This means that messages are defined by .NET classes. Each distinct message type that you want to send is represented by a class. The class should be public with a default constructor and public read/write properties. You would not normally implement any functionality in a message, but treat it as a simple data container or Data Transfer Object (DTO). Here is a simple message:
 
-{% highlight C# %}
+
 public class MyMessage
 {
     public string Text { get; set; }
 }
-{% highlight %}
+
 
 EasyNetQ routes messages by their type. When you publish a message, EasyNetQ examines its type and gives it a routing key based on the type name, namespace and assembly. On the consuming side, subscribers subscribe to a type. After subscribing to a type, messages of that type get routed to the subscriber.
 
